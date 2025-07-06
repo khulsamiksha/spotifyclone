@@ -189,19 +189,22 @@ a{
     margin-top:1rem ;
 
 }
+
 .card-container{
     display: flex;
     flex-wrap: wrap;
-
 }
+
 .card-img{
     width: 100%;
     border-radius: 0.5rem;
 
 }
+
 .card-title{
     font-weight: 600;
 }
+
 .card-info{
     font-size: 0.85rem;
     opacity: 0.5;
@@ -220,6 +223,7 @@ a{
     border-top: 1px solid white;
     opacity: 0.4;
 }
+
 .music-player{
     display: flex;
     align-content: center;
@@ -236,23 +240,27 @@ a{
     margin-left:1rem ;
 
 }
+
 .album-pic{
     justify-content: center;
     border-radius: 15px;
     padding: 0.35rem;
     width: 5rem;
 }
+
 .album-title{
      font-weight: 600;
      height: 1rem;
      padding: 0;
      margin-top: 0.25rem;
 }
+
 .album-info{
     flex-wrap:nowrap;
     margin-bottom: 20px;
     
 }
+
 .album-icon{
     height: 1rem;
     display: flex;
@@ -281,20 +289,24 @@ a{
     opacity: 0.7;
 
 }
+
 .player-controll-icon:hover{
     opacity: 1;
 }
+
 .player-controll{
     display: flex;
     align-content: center;
     justify-content: center;
 }
+
 .playback-bar{
     display: flex;
     align-content: center;
     justify-content: center;
 
 }
+
 .progress-bar{
     width: 70%;
     appearance: none;
@@ -302,11 +314,13 @@ a{
     cursor: pointer;
 
 }
+
 .progress-bar::-webkit-slider-runnable-track{
     background-color: #ddd;
     border-radius: 100px;
     height: 0.25rem;
 }
+
 .progress-bar::-webkit-slider-thumb{
     appearance: none;
     height: 1rem;
@@ -317,6 +331,7 @@ a{
 
 }
 /* control */
+
 .controls{
   width: 25%;
   background-color: #000;
@@ -324,6 +339,7 @@ a{
   justify-content: center;
   align-items: center;
 }
+
 .control-icon{
     height: 2rem;
     width: 2rem;
@@ -331,6 +347,7 @@ a{
     color: #fff;
     font-weight: 700;
 }
+
 .range1::-webkit-slider-thumb{
     appearance: none;
     opacity: 0;
